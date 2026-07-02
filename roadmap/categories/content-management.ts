@@ -2,11 +2,11 @@
  * Category Index for Content Management
  * Phase: 4
  * Total Integrations: 8
- * Folder Structure: /src/core/api/content-management/
+ * Folder Structure: /content-management/
  */
 
 import { Category } from '../../src/types/integration';
-import { WORDPRESS } from '../../src/core/api/content-management/wordpress/index';
+import { WORDPRESS } from '../../content-management/wordpress/index';
 
 export const CONTENT_MANAGEMENT: Category = {
   id: 'content-management',
@@ -14,7 +14,7 @@ export const CONTENT_MANAGEMENT: Category = {
   emoji: '📝',
   phaseNumber: 4,
   description: 'Content platforms and publishing systems',
-  folder: '/src/core/api/content-management/',
+  folder: '/content-management/',
   integrationCount: 8,
   integrations: [
     WORDPRESS

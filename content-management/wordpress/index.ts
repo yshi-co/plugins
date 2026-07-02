@@ -1,4 +1,4 @@
-import { Integration, Primitive } from '../../../../src/types/integration';
+import { Integration, Primitive } from '../../src/types/integration';
 
 /**
  * WordPress Integration

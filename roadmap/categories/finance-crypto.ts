@@ -2,11 +2,11 @@
  * Category Index for Finance & Cryptocurrency
  * Phase: 7
  * Total Integrations: 10
- * Folder Structure: /src/core/api/finance-crypto/
+ * Folder Structure: /finance-crypto/
  */
 
 import { Category } from '../../src/types/integration';
-import { CRYPTO_PRICE_TRACKING } from '../../src/core/api/finance-crypto/crypto-price-tracking/index';
+import { CRYPTO_PRICE_TRACKING } from '../../finance-crypto/crypto-price-tracking/index';
 
 export const FINANCE_CRYPTO: Category = {
   id: 'finance-crypto',
@@ -14,7 +14,7 @@ export const FINANCE_CRYPTO: Category = {
   emoji: '💰',
   phaseNumber: 7,
   description: 'Financial services, crypto trading, and crypto assets',
-  folder: '/src/core/api/finance-crypto/',
+  folder: '/finance-crypto/',
   integrationCount: 10,
   integrations: [
     CRYPTO_PRICE_TRACKING
