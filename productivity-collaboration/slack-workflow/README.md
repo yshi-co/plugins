@@ -82,7 +82,7 @@ This integration supports the following Yshi primitives:
 
 ## Documentation
 
-- [Official Slack Workflow API Docs](https://docs.example.com)
+- [Official Slack Workflow API Docs](https://docs.yshi.co)
 - [Yshi Integration Guide](https://yshi.co/docs)
 - [Community Support](https://community.yshi.co)
 
@@ -99,9 +99,9 @@ This integration supports the following Yshi primitives:
 
 ## Support
 
-- 📧 Email: [support@yshi.co](mailto:support@yshi.co)
-- 💬 Discord: [Yshi Community](https://discord.gg/yshi)
-- 📚 Docs: [integration.yshi.co](https://integration.yshi.co)
+- 📧 Email: [hello@yshi.co](mailto:hello@yshi.co)
+- 💬 Chat: [Yshi Community](https://yshi.co/group/yshi_dev)
+- 📚 Docs: [docs.yshi.co](https://docs.yshi.co)
 
 ## Roadmap
 

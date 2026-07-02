@@ -475,8 +475,8 @@ See [ROADMAP.md](ROADMAP.md) for:
 - ⚡ **Quick Reference:** [roadmap/docs/QUICK_REFERENCE.md](roadmap/docs/QUICK_REFERENCE.md)
 
 ### Getting Help
-- 💬 **Discord Community:** [discord.gg/yshi](https://discord.gg/yshi)
-- 📧 **Email Support:** [support@yshi.co](mailto:support@yshi.co)
+- 💬 **Chat Community:** [yshi.co/group/yshi_dev](https://yshi.co/group/yshi_dev)
+- 📧 **Email Support:** [hello@yshi.co](mailto:hello@yshi.co)
 - 🐛 **Report Issues:** [GitHub Issues](https://github.com/yshi-co/plugins/issues)
 - 💡 **Feature Requests:** [GitHub Discussions](https://github.com/yshi-co/plugins/discussions)
 
@@ -513,4 +513,4 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and updates.
 
 **Built with ❤️ by the Yshi Team**
 
-[Website](https://yshi.co) • [Documentation](https://docs.yshi.co) • [Discord](https://discord.gg/yshi) • [GitHub](https://github.com/yshi-co)
+[Website](https://yshi.co) • [Documentation](https://docs.yshi.co) • [Chat](https://yshi.co/group/yshi_dev) • [GitHub](https://github.com/yshi-co)

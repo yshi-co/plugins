@@ -584,8 +584,8 @@ MIT License - See LICENSE file
 ## Support
 
 - 📚 **Documentation:** [docs.yshi.co](https://docs.yshi.co)
-- 💬 **Discord:** [discord.gg/yshi](https://discord.gg/yshi)
-- 📧 **Email:** [support@yshi.co](mailto:support@yshi.co)
+- 💬 **Chat:** [yshi.co/group/yshi_dev](https://yshi.co/group/yshi_dev)
+- 📧 **Email:** [hello@yshi.co](mailto:hello@yshi.co)
 - 🐛 **Issues:** [GitHub Issues](https://github.com/yshi-co/roadmap/issues)
 
 ## Related Resources

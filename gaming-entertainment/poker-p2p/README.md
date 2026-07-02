@@ -298,15 +298,15 @@ Returns: { wins, losses, earnings, achievements }
 
 ## Documentation Links
 
-- 📚 **Full API Docs**: https://poker-p2p-api.example.com/docs
-- 🎮 **Game Rules**: https://poker-p2p-api.example.com/rules
-- 📊 **Statistics**: https://poker-p2p-api.example.com/stats
+- 📚 **Full API Docs**: https://docs.yshi.co
+- 🎮 **Game Rules**: https://docs.yshi.co
+- 📊 **Statistics**: https://docs.yshi.co
 - 🔧 **Webhooks**: https://docs.yshi.co/api/webhooks
 
 ## Support
 
-- 💬 **Discord**: [#poker-p2p](https://discord.gg/yshi)
-- 📧 **Email**: poker-support@yshi.co
+- 💬 **Chat**: [Yshi Community](https://yshi.co/group/yshi_dev)
+- 📧 **Email**: hello@yshi.co
 - 🐛 **Issues**: [GitHub Issues](https://github.com/yshi-co/plugins/issues)
 - 📖 **Docs**: [https://docs.yshi.co](https://docs.yshi.co)
 

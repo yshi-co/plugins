@@ -294,15 +294,15 @@ Returns: { rating, games, wins, accuracy, openings }
 
 ## Documentation Links
 
-- 📚 **Full API Docs**: https://chess-p2p-api.example.com/docs
-- ♟️ **Rules**: https://chess-p2p-api.example.com/rules
-- 📊 **Ratings**: https://chess-p2p-api.example.com/ratings
-- 🎓 **Learning**: https://chess-p2p-api.example.com/learn
+- 📚 **Full API Docs**: https://docs.yshi.co
+- ♟️ **Rules**: https://docs.yshi.co
+- 📊 **Ratings**: https://docs.yshi.co
+- 🎓 **Learning**: https://docs.yshi.co
 
 ## Support
 
-- 💬 **Discord**: [#chess-p2p](https://discord.gg/yshi)
-- 📧 **Email**: chess-support@yshi.co
+- 💬 **Chat**: [Yshi Community](https://yshi.co/group/yshi_dev)
+- 📧 **Email**: hello@yshi.co
 - 🐛 **Issues**: [GitHub Issues](https://github.com/yshi-co/plugins/issues)
 - 📖 **Docs**: [https://docs.yshi.co](https://docs.yshi.co)
 

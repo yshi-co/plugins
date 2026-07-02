@@ -28,7 +28,7 @@ export const SLACK_WORKFLOW: Integration = {
   ],
 
   // API documentation
-  apiDocUrl: 'https://docs.example.com',
+  apiDocUrl: 'https://docs.yshi.co',
   
   // Implementation details
   difficulty: 'medium',

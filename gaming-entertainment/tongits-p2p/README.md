@@ -333,15 +333,15 @@ Score: 25 point bonus!
 
 ## Documentation Links
 
-- 📚 **Full API Docs**: https://tongits-p2p-api.example.com/docs
-- 🎴 **Rules**: https://tongits-p2p-api.example.com/rules
-- 📊 **Statistics**: https://tongits-p2p-api.example.com/stats
-- 🎓 **How to Play**: https://tongits-p2p-api.example.com/guide
+- 📚 **Full API Docs**: https://docs.yshi.co
+- 🎴 **Rules**: https://docs.yshi.co
+- 📊 **Statistics**: https://docs.yshi.co
+- 🎓 **How to Play**: https://docs.yshi.co
 
 ## Support
 
-- 💬 **Discord**: [#tongits-p2p](https://discord.gg/yshi)
-- 📧 **Email**: tongits-support@yshi.co
+- 💬 **Chat**: [Yshi Community](https://yshi.co/group/yshi_dev)
+- 📧 **Email**: hello@yshi.co
 - 🐛 **Issues**: [GitHub Issues](https://github.com/yshi-co/plugins/issues)
 - 📖 **Docs**: [https://docs.yshi.co](https://docs.yshi.co)
 

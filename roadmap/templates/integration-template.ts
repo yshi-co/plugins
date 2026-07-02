@@ -47,7 +47,7 @@ export const INTEGRATION_TEMPLATE: Integration = {
   ],
   
   // Additional metadata
-  apiDocUrl: 'https://docs.example.com',
+  apiDocUrl: 'https://docs.yshi.co',
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: ['dependency-1', 'dependency-2'],

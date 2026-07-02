@@ -28,7 +28,7 @@ export const BACKBLAZE: Integration = {
   ],
 
   // API documentation
-  apiDocUrl: 'https://docs.example.com',
+  apiDocUrl: 'https://docs.yshi.co',
   
   // Implementation details
   difficulty: 'medium',
