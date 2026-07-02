@@ -6,7 +6,7 @@
  */
 
 import { Category } from '../../src/types/integration';
-import { CRYPTO_PRICE_TRACKING } from '../../src/core/api/finance-crypto/crypto-price-tracking';
+import { CRYPTO_PRICE_TRACKING } from '../../src/core/api/finance-crypto/crypto-price-tracking/index';
 
 export const FINANCE_CRYPTO: Category = {
   id: 'finance-crypto',

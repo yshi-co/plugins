@@ -1,4 +1,4 @@
-import { Integration, Primitive } from '../../../src/types/integration';
+import { Integration, Primitive } from '../../../../src/types/integration';
 
 /**
  * WordPress Integration
@@ -59,3 +59,5 @@ export const WORDPRESS: Integration = {
   dependencies: ['oauth-provider', 'webhook-system'],
   tags: ['cms', 'blogging', 'content', 'publishing', 'automation', 'wordpress.com'],
 };
+
+export default WORDPRESS;

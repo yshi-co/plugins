@@ -6,7 +6,7 @@
  */
 
 import { Category } from '../../src/types/integration';
-import { WORDPRESS } from '../../src/core/api/content-management/wordpress';
+import { WORDPRESS } from '../../src/core/api/content-management/wordpress/index';
 
 export const CONTENT_MANAGEMENT: Category = {
   id: 'content-management',

@@ -1,4 +1,4 @@
-import { Integration, Primitive } from '../../../src/types/integration';
+import { Integration, Primitive } from '../../../../src/types/integration';
 
 /**
  * Crypto Price Tracking Integration
@@ -59,3 +59,5 @@ export const CRYPTO_PRICE_TRACKING: Integration = {
   dependencies: ['price-data-provider', 'webhook-system', 'points-engine'],
   tags: ['crypto', 'finance', 'trading', 'alerts', 'analytics', 'portfolio', 'blockchain'],
 };
+
+export default CRYPTO_PRICE_TRACKING;
