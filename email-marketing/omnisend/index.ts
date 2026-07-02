@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Omnisend Integration
+ * Phase 16 - Email Marketing
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const OMNISEND: Integration = {
+  id: 'omnisend',
+  name: 'Omnisend',
+  description: 'Integration with Omnisend for enhanced workflow automation',
+  category: 'Email Marketing',
+  categoryId: 'email-marketing',
+  phaseNumber: 16,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['omnisend'],
 };
 
-export default WORDPRESS;
+export default OMNISEND;

@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * When2meet Integration
+ * Phase 10 - Calendar Scheduling
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const WHEN2MEET: Integration = {
+  id: 'when2meet',
+  name: 'When2meet',
+  description: 'Integration with When2meet for enhanced workflow automation',
+  category: 'Calendar Scheduling',
+  categoryId: 'calendar-scheduling',
+  phaseNumber: 10,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['when2meet'],
 };
 
-export default WORDPRESS;
+export default WHEN2MEET;

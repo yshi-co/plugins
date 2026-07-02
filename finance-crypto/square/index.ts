@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Square Integration
+ * Phase 7 - Finance Crypto
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const SQUARE: Integration = {
+  id: 'square',
+  name: 'Square',
+  description: 'Integration with Square for enhanced workflow automation',
+  category: 'Finance Crypto',
+  categoryId: 'finance-crypto',
+  phaseNumber: 7,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['square'],
 };
 
-export default WORDPRESS;
+export default SQUARE;

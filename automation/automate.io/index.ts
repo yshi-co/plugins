@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Automate.io Integration
+ * Phase 17 - Automation
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const AUTOMATE.IO: Integration = {
+  id: 'automate.io',
+  name: 'Automate.io',
+  description: 'Integration with Automate.io for enhanced workflow automation',
+  category: 'Automation',
+  categoryId: 'automation',
+  phaseNumber: 17,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['automate.io'],
 };
 
-export default WORDPRESS;
+export default AUTOMATE.IO;

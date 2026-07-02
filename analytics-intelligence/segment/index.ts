@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Segment Integration
+ * Phase 15 - Analytics Intelligence
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const SEGMENT: Integration = {
+  id: 'segment',
+  name: 'Segment',
+  description: 'Integration with Segment for enhanced workflow automation',
+  category: 'Analytics Intelligence',
+  categoryId: 'analytics-intelligence',
+  phaseNumber: 15,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['segment'],
 };
 
-export default WORDPRESS;
+export default SEGMENT;

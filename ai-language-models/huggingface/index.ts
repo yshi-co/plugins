@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Huggingface Integration
+ * Phase 6 - Ai Language Models
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const HUGGINGFACE: Integration = {
+  id: 'huggingface',
+  name: 'Huggingface',
+  description: 'Integration with Huggingface for enhanced workflow automation',
+  category: 'Ai Language Models',
+  categoryId: 'ai-language-models',
+  phaseNumber: 6,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['huggingface'],
 };
 
-export default WORDPRESS;
+export default HUGGINGFACE;

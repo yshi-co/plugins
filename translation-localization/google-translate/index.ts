@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Google Translate Integration
+ * Phase 18 - Translation Localization
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const GOOGLE_TRANSLATE: Integration = {
+  id: 'google-translate',
+  name: 'Google Translate',
+  description: 'Integration with Google Translate for enhanced workflow automation',
+  category: 'Translation Localization',
+  categoryId: 'translation-localization',
+  phaseNumber: 18,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['google-translate'],
 };
 
-export default WORDPRESS;
+export default GOOGLE_TRANSLATE;

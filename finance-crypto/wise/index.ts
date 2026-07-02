@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Wise Integration
+ * Phase 7 - Finance Crypto
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const WISE: Integration = {
+  id: 'wise',
+  name: 'Wise',
+  description: 'Integration with Wise for enhanced workflow automation',
+  category: 'Finance Crypto',
+  categoryId: 'finance-crypto',
+  phaseNumber: 7,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['wise'],
 };
 
-export default WORDPRESS;
+export default WISE;

@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Defi Protocol Integration
+ * Phase 7 - Finance Crypto
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const DEFI_PROTOCOL: Integration = {
+  id: 'defi-protocol',
+  name: 'Defi Protocol',
+  description: 'Integration with Defi Protocol for enhanced workflow automation',
+  category: 'Finance Crypto',
+  categoryId: 'finance-crypto',
+  phaseNumber: 7,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['defi-protocol'],
 };
 
-export default WORDPRESS;
+export default DEFI_PROTOCOL;

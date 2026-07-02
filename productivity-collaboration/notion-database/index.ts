@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Notion Database Integration
+ * Phase 9 - Productivity Collaboration
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const NOTION_DATABASE: Integration = {
+  id: 'notion-database',
+  name: 'Notion Database',
+  description: 'Integration with Notion Database for enhanced workflow automation',
+  category: 'Productivity Collaboration',
+  categoryId: 'productivity-collaboration',
+  phaseNumber: 9,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['notion-database'],
 };
 
-export default WORDPRESS;
+export default NOTION_DATABASE;

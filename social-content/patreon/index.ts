@@ -1,15 +1,15 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Patreon Integration
+ * Phase 4 - Social Content
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
+export const PATREON: Integration = {
+  id: 'patreon',
+  name: 'Patreon',
+  description: 'Integration with Patreon for enhanced workflow automation',
+  category: 'Social Content',
+  categoryId: 'social-content',
   phaseNumber: 4,
   status: 'Planning',
 
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['patreon'],
 };
 
-export default WORDPRESS;
+export default PATREON;

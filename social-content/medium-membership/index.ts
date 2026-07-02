@@ -1,15 +1,15 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Medium Membership Integration
+ * Phase 4 - Social Content
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
+export const MEDIUM_MEMBERSHIP: Integration = {
+  id: 'medium-membership',
+  name: 'Medium Membership',
+  description: 'Integration with Medium Membership for enhanced workflow automation',
+  category: 'Social Content',
+  categoryId: 'social-content',
   phaseNumber: 4,
   status: 'Planning',
 
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['medium-membership'],
 };
 
-export default WORDPRESS;
+export default MEDIUM_MEMBERSHIP;

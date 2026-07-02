@@ -1,13 +1,13 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
+ * Webflow Integration
  * Phase 4 - Content Management
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
+export const WEBFLOW: Integration = {
+  id: 'webflow',
+  name: 'Webflow',
+  description: 'Integration with Webflow for enhanced workflow automation',
   category: 'Content Management',
   categoryId: 'content-management',
   phaseNumber: 4,
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['webflow'],
 };
 
-export default WORDPRESS;
+export default WEBFLOW;

@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Weather Api Integration
+ * Phase 19 - Weather News
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const WEATHER_API: Integration = {
+  id: 'weather-api',
+  name: 'Weather Api',
+  description: 'Integration with Weather Api for enhanced workflow automation',
+  category: 'Weather News',
+  categoryId: 'weather-news',
+  phaseNumber: 19,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['weather-api'],
 };
 
-export default WORDPRESS;
+export default WEATHER_API;

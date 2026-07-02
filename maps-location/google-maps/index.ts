@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Google Maps Integration
+ * Phase 20 - Maps Location
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const GOOGLE_MAPS: Integration = {
+  id: 'google-maps',
+  name: 'Google Maps',
+  description: 'Integration with Google Maps for enhanced workflow automation',
+  category: 'Maps Location',
+  categoryId: 'maps-location',
+  phaseNumber: 20,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['google-maps'],
 };
 
-export default WORDPRESS;
+export default GOOGLE_MAPS;

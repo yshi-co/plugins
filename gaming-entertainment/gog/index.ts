@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Gog Integration
+ * Phase 14 - Gaming Entertainment
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const GOG: Integration = {
+  id: 'gog',
+  name: 'Gog',
+  description: 'Integration with Gog for enhanced workflow automation',
+  category: 'Gaming Entertainment',
+  categoryId: 'gaming-entertainment',
+  phaseNumber: 14,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['gog'],
 };
 
-export default WORDPRESS;
+export default GOG;

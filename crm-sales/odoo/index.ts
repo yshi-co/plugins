@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Odoo Integration
+ * Phase 2 - Crm Sales
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const ODOO: Integration = {
+  id: 'odoo',
+  name: 'Odoo',
+  description: 'Integration with Odoo for enhanced workflow automation',
+  category: 'Crm Sales',
+  categoryId: 'crm-sales',
+  phaseNumber: 2,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['odoo'],
 };
 
-export default WORDPRESS;
+export default ODOO;

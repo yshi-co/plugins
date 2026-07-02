@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Doodle Integration
+ * Phase 10 - Calendar Scheduling
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const DOODLE: Integration = {
+  id: 'doodle',
+  name: 'Doodle',
+  description: 'Integration with Doodle for enhanced workflow automation',
+  category: 'Calendar Scheduling',
+  categoryId: 'calendar-scheduling',
+  phaseNumber: 10,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['doodle'],
 };
 
-export default WORDPRESS;
+export default DOODLE;

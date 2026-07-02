@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Amazon Pay Integration
+ * Phase 3 - Ecommerce Shopping
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const AMAZON_PAY: Integration = {
+  id: 'amazon-pay',
+  name: 'Amazon Pay',
+  description: 'Integration with Amazon Pay for enhanced workflow automation',
+  category: 'Ecommerce Shopping',
+  categoryId: 'ecommerce-shopping',
+  phaseNumber: 3,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['amazon-pay'],
 };
 
-export default WORDPRESS;
+export default AMAZON_PAY;

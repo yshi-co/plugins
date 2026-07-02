@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Aws S3 Integration
+ * Phase 5 - Cloud Storage
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const AWS_S3: Integration = {
+  id: 'aws-s3',
+  name: 'Aws S3',
+  description: 'Integration with Aws S3 for enhanced workflow automation',
+  category: 'Cloud Storage',
+  categoryId: 'cloud-storage',
+  phaseNumber: 5,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['aws-s3'],
 };
 
-export default WORDPRESS;
+export default AWS_S3;

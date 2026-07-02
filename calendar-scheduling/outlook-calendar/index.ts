@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Outlook Calendar Integration
+ * Phase 10 - Calendar Scheduling
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const OUTLOOK_CALENDAR: Integration = {
+  id: 'outlook-calendar',
+  name: 'Outlook Calendar',
+  description: 'Integration with Outlook Calendar for enhanced workflow automation',
+  category: 'Calendar Scheduling',
+  categoryId: 'calendar-scheduling',
+  phaseNumber: 10,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['outlook-calendar'],
 };
 
-export default WORDPRESS;
+export default OUTLOOK_CALENDAR;

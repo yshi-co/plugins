@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Matrix Integration
+ * Phase 13 - Forums Community
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const MATRIX: Integration = {
+  id: 'matrix',
+  name: 'Matrix',
+  description: 'Integration with Matrix for enhanced workflow automation',
+  category: 'Forums Community',
+  categoryId: 'forums-community',
+  phaseNumber: 13,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['matrix'],
 };
 
-export default WORDPRESS;
+export default MATRIX;

@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Elastic Stack Integration
+ * Phase 12 - Monitoring Observability
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const ELASTIC_STACK: Integration = {
+  id: 'elastic-stack',
+  name: 'Elastic Stack',
+  description: 'Integration with Elastic Stack for enhanced workflow automation',
+  category: 'Monitoring Observability',
+  categoryId: 'monitoring-observability',
+  phaseNumber: 12,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['elastic-stack'],
 };
 
-export default WORDPRESS;
+export default ELASTIC_STACK;

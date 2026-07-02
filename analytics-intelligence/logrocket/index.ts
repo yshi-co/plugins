@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Logrocket Integration
+ * Phase 15 - Analytics Intelligence
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const LOGROCKET: Integration = {
+  id: 'logrocket',
+  name: 'Logrocket',
+  description: 'Integration with Logrocket for enhanced workflow automation',
+  category: 'Analytics Intelligence',
+  categoryId: 'analytics-intelligence',
+  phaseNumber: 15,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['logrocket'],
 };
 
-export default WORDPRESS;
+export default LOGROCKET;

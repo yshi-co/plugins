@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Intercom Integration
+ * Phase 11 - Communication Support
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const INTERCOM: Integration = {
+  id: 'intercom',
+  name: 'Intercom',
+  description: 'Integration with Intercom for enhanced workflow automation',
+  category: 'Communication Support',
+  categoryId: 'communication-support',
+  phaseNumber: 11,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['intercom'],
 };
 
-export default WORDPRESS;
+export default INTERCOM;

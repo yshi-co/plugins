@@ -1,15 +1,15 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Linkedin Integration
+ * Phase 4 - Social Content
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
+export const LINKEDIN: Integration = {
+  id: 'linkedin',
+  name: 'Linkedin',
+  description: 'Integration with Linkedin for enhanced workflow automation',
+  category: 'Social Content',
+  categoryId: 'social-content',
   phaseNumber: 4,
   status: 'Planning',
 
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['linkedin'],
 };
 
-export default WORDPRESS;
+export default LINKEDIN;

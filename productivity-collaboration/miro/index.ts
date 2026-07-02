@@ -1,16 +1,16 @@
 import { Integration, Primitive } from '../../src/types/integration';
 
 /**
- * Wordpress Integration
- * Phase 4 - Content Management
+ * Miro Integration
+ * Phase 9 - Productivity Collaboration
  */
-export const WORDPRESS: Integration = {
-  id: 'wordpress',
-  name: 'Wordpress',
-  description: 'Integration with Wordpress for enhanced workflow automation',
-  category: 'Content Management',
-  categoryId: 'content-management',
-  phaseNumber: 4,
+export const MIRO: Integration = {
+  id: 'miro',
+  name: 'Miro',
+  description: 'Integration with Miro for enhanced workflow automation',
+  category: 'Productivity Collaboration',
+  categoryId: 'productivity-collaboration',
+  phaseNumber: 9,
   status: 'Planning',
 
   // API Primitives used by this integration
@@ -34,7 +34,7 @@ export const WORDPRESS: Integration = {
   difficulty: 'medium',
   estimatedEffort: '2-3 weeks',
   dependencies: [],
-  tags: ['wordpress'],
+  tags: ['miro'],
 };
 
-export default WORDPRESS;
+export default MIRO;
