@@ -84,7 +84,6 @@ This integration supports the following Yshi primitives:
 
 - [Official Syncthing API Docs](https://docs.yshi.co)
 - [Yshi Integration Guide](https://yshi.co/docs)
-- [Community Support](https://community.yshi.co)
 
 ## Troubleshooting
 

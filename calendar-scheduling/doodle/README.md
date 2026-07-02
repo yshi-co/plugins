@@ -84,7 +84,6 @@ This integration supports the following Yshi primitives:
 
 - [Official Doodle API Docs](https://docs.yshi.co)
 - [Yshi Integration Guide](https://yshi.co/docs)
-- [Community Support](https://community.yshi.co)
 
 ## Troubleshooting
 
