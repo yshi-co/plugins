@@ -27,6 +27,17 @@ All integrations are built on four core Yshi API capabilities:
 
 See [ROADMAP.md](ROADMAP.md) for the full phase-by-phase integration plan with detailed use cases for each integration.
 
-## Documentation
+## Quick Links
 
-Full API reference: [docs.yshi.co](https://docs.yshi.co/)
+- **Full API Documentation**: [docs.yshi.co](https://docs.yshi.co/) — Webhooks, Mini Apps, OAuth, Points System, and more
+- **Integration Roadmap**: See [ROADMAP.md](ROADMAP.md) for planned integrations across all phases
+
+## Getting Started
+
+Check out the [Yshi API docs](https://docs.yshi.co/) to:
+- Set up webhooks for real-time event handling
+- Build embedded Mini Apps UIs
+- Implement OAuth authentication
+- Use the Points System for in-chat rewards
+
+For the latest integration status and roadmap, visit [ROADMAP.md](ROADMAP.md).
