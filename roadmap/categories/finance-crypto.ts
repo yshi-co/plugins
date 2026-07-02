@@ -6,6 +6,7 @@
  */
 
 import { Category } from '../../src/types/integration';
+import { CRYPTO_PRICE_TRACKING } from '../../src/core/api/finance-crypto/crypto-price-tracking';
 
 export const FINANCE_CRYPTO: Category = {
   id: 'finance-crypto',
@@ -15,7 +16,9 @@ export const FINANCE_CRYPTO: Category = {
   description: 'Financial services, crypto trading, and crypto assets',
   folder: '/src/core/api/finance-crypto/',
   integrationCount: 10,
-  integrations: [],
+  integrations: [
+    CRYPTO_PRICE_TRACKING
+  ],
   status: 'Planning' as const
 };
 

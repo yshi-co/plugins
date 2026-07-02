@@ -6,6 +6,7 @@
  */
 
 import { Category } from '../../src/types/integration';
+import { WORDPRESS } from '../../src/core/api/content-management/wordpress';
 
 export const CONTENT_MANAGEMENT: Category = {
   id: 'content-management',
@@ -15,7 +16,9 @@ export const CONTENT_MANAGEMENT: Category = {
   description: 'Content platforms and publishing systems',
   folder: '/src/core/api/content-management/',
   integrationCount: 8,
-  integrations: [],
+  integrations: [
+    WORDPRESS
+  ],
   status: 'Planning' as const
 };
 
