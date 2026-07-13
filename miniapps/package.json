@@ -1,0 +1,19 @@
+{
+  "name": "yshi-miniapps",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Yshi miniapps monorepo — shared game platform + first titles",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "server"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "dev:tapper": "npm run dev -w apps/tapper",
+    "dev:tongits": "npm run dev -w apps/tongits",
+    "dev:server": "npm run dev -w server",
+    "build": "npm run build --workspaces --if-present"
+  }
+}
